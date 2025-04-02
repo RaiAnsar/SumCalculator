@@ -1,18 +1,16 @@
-# Sum Calculator Pro
+# <img src="icons/icon48.png" alt="icon" width="38" style="vertical-align: middle; margin-right: 10px;"> Sum Calculator Pro
 
-<p align="center">
-  <img src="icons/icon128.png" alt="Sum Calculator Pro Logo" width="128" height="128">
-</p>
+<div align="center">
+  <img src="icons/icon128.png" alt="Sum Calculator Pro Logo" width="128" height="128" style="border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  
+  <h3 style="margin-top: 20px; font-weight: 600; color: #4f46e5;">A powerful Chrome extension for instant numerical calculations on any web page</h3>
 
-<p align="center">
-  <b>A powerful Chrome extension for instant numerical calculations on any web page</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Chrome-yellow.svg" alt="Platform">
-</p>
+  <div style="display: flex; justify-content: center; gap: 10px; margin: 15px 0;">
+    <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg?style=for-the-badge" alt="Version">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/badge/Platform-Chrome-yellow.svg?style=for-the-badge" alt="Platform">
+  </div>
+</div>
 
 ## ✨ Features
 
@@ -29,13 +27,10 @@
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="assets/images/SS-SumCalculator.png" alt="Sum Calculator Pro in action" width="80%">
-</p>
-
-<p align="center">
-  <img src="assets/images/SS-SumCalculator2.png" alt="Sum Calculator Pro selection" width="80%">
-</p>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px;">
+  <img src="assets/images/SS-SumCalculator.png" alt="Sum Calculator Pro in action" width="45%" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="assets/images/SS-SumCalculator2.png" alt="Sum Calculator Pro selection" width="45%" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
 
 ## 🚀 Getting Started
 
@@ -109,7 +104,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">
-  Made with ❤️ by Rai Ansar
-</p>
+<div align="center">
+  <p style="margin-top: 30px; font-weight: 500;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" style="vertical-align: middle; margin-right: 10px;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="20" height="20" style="vertical-align: middle; margin-right: 10px;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" height="20" style="vertical-align: middle;">
+  </p>
+  
+  <p style="margin-top: 20px; font-size: 16px; color: #666;">
+    Made with ❤️ by <strong>Rai Ansar</strong>
+  </p>
+  
+  <a href="https://github.com/RaiAnsar" style="text-decoration: none; margin-top: 10px; display: inline-block;">
+    <img src="https://img.shields.io/github/followers/RaiAnsar?label=Follow&style=social" alt="Follow on GitHub">
+  </a>
+</div>
 
