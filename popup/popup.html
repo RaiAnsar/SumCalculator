@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Calculator Pro</title>
+    <link rel="stylesheet" href="../css/popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-container">
+                <img src="../icons/icon48.png" alt="Sum Calculator Pro" class="logo">
+                <h1>Sum Calculator Pro</h1>
+            </div>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-toggle-btn">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-content">
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <h2>Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalCalculations">0</div>
+                        <div class="stat-label">Total Calculations</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="avgTime">0ms</div>
+                        <div class="stat-label">Avg. Time</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="savedTime">0h</div>
+                        <div class="stat-label">Time Saved</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Settings Section -->
+            <section class="settings-section">
+                <h2>Settings</h2>
+                <div class="settings-grid">
+                    <div class="setting-item">
+                        <label for="displayPosition">Display Position</label>
+                        <select id="displayPosition" class="setting-select">
+                            <option value="top-right">Top Right</option>
+                            <option value="top-left">Top Left</option>
+                            <option value="bottom-right">Bottom Right</option>
+                            <option value="bottom-left">Bottom Left</option>
+                        </select>
+                    </div>
+                    <div class="setting-item">
+                        <label for="numberFormat">Number Format</label>
+                        <select id="numberFormat" class="setting-select">
+                            <option value="plain">Plain Numbers</option>
+                            <option value="currency">Currency</option>
+                            <option value="percentage">Percentage</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Calculations -->
+            <section class="recent-section">
+                <h2>Recent Calculations</h2>
+                <div class="recent-list" id="recentCalculations">
+                    <!-- Recent calculations will be inserted here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="shortcuts">
+                    <span class="shortcut">Ctrl+Shift+S</span>
+                    <span class="shortcut-label">Open Calculator</span>
+                </div>
+                <div class="shortcuts">
+                    <span class="shortcut">Ctrl+Shift+C</span>
+                    <span class="shortcut-label">Toggle On/Off</span>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#" id="helpLink">Help</a>
+                <a href="#" id="feedbackLink">Feedback</a>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/popup.js"></script>
+</body>
+</html> 
