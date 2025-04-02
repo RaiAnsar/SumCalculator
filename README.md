@@ -27,10 +27,16 @@
 
 ## 📸 Screenshots
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 20px;">
-  <img src="assets/images/SS-SumCalculator.png" alt="Sum Calculator Pro in action" width="45%" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <img src="assets/images/SS-SumCalculator2.png" alt="Sum Calculator Pro selection" width="45%" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</div>
+<table align="center" border="0">
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/images/SS-SumCalculator.png" alt="Sum Calculator Pro in action" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/images/SS-SumCalculator2.png" alt="Sum Calculator Pro selection" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Getting Started
 
